@@ -1,0 +1,93 @@
+.box {
+    
+    inset: 4px;
+    padding: 50px 40px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+.box  h2{
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+.box  .input_box{
+    width: 300px;
+    margin-top: 35px;
+    position: relative;
+}
+.box  .input_box input{
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: #000;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+}
+.box  .input_box span{
+    position: absolute;
+    left: 0;
+    top:0;
+    padding: 20px 0px 10px;
+    pointer-events: none;
+    color: #000000;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+}
+.box  .input_box span .fa{
+    width: 25px;
+    height: 25px;
+    color: #fff;
+}
+.box  .input_box i{
+    padding: 0 10px 0 0;
+}
+.box  .input_box input:focus~span,
+.box  .input_box input:valid~span
+
+{
+    color: #463232;
+    font-size: 0.7em;
+    transform: translateY(-37px);
+}
+.box  .input_box input:focus~span:nth-child(3){
+    display: none;
+}
+.box  .input_box div{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 4px;
+    transition: 0.5s;
+    pointer-events: none;
+    overflow: hidden;
+}
+.box  .input_box input:focus~div,
+.box  .input_box input:valid~div{
+    height: 44px;
+    
+}
+
+.box   input[type="submit"]{
+    border: none;
+    outline: none;
+    padding: 9px 25px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 0.9em;
+    border-radius: 4px;
+    font-weight: 600;
+    width: 100px;
+    margin-top: 10px;
+}

@@ -1,0 +1,62 @@
+.container .main_infouser{
+    background-color: #fff;
+    margin: 10px;
+    min-height: 500px; 
+    height:100%;
+    box-shadow: 0 -2px 0 rgb(163, 161, 161);
+    text-align: center;
+}
+.container .main_infouser .ifo h3{
+    padding: 10px;
+    margin-left: 10px;
+}
+.contener_user{
+    display: flex;
+    width: 400px;
+    height: 45px;
+    padding-top: 45px;
+    margin-left: 200px;
+   
+}
+.contener_user span{
+    padding-right: 10px;
+    font-weight: 600;
+}
+.img_user{
+    border: 1px solid #000;
+    width: 240px;
+    height: 240px;
+    border-radius: 10px;
+    position: relative;
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+}
+
+.ifo form{
+    display: flex;
+
+    align-items: center;
+ 
+    flex-direction: column;
+}
+.ifo form .submit{
+    margin-top: 10px;
+    width: 100px;
+}
+#btn_chonImg{
+    position: absolute;
+    top:310px;
+    right: 455px;
+    border: none;
+    outline: none;
+    opacity: 0.7;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+}
+#btn_chonImg i{
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+}

@@ -1,0 +1,205 @@
+.container .main_quanlroom{ 
+    margin: 10px; 
+    height:600px;
+    position: relative;
+}
+ul li{
+    list-style: none;
+}
+.container .main_quanlroom .header_room{
+    background-color: azure;
+    width: 100%;
+    height: 110px;
+   
+    box-shadow: 0 -2px 0 rgb(163, 161, 161);
+}
+.container .main_quanlroom .header_room .hr_firt{
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    display: flex;
+   justify-content: space-between;
+}
+.container .main_quanlroom 
+.header_room .hr_firt .menu_iconroom{
+    position: relative;
+}
+.container .main_quanlroom 
+.header_room .hr_firt .nav_menuroom{
+    position: absolute;
+    right: -10px;
+    top: 29px;
+
+    background-color: #000000;
+    z-index: 10;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+.container .main_quanlroom 
+.header_room .hr_firt .menu_iconroom i{
+    cursor: pointer;
+}
+.container .main_quanlroom 
+.header_room .hr_firt .nav_menuroom a{
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+
+.container .main_quanlroom .header_room .hr_second{
+    justify-content: center;
+
+    padding: 10px 0;
+    display: flex;
+}
+.container .main_quanlroom .header_room 
+.hr_second .icon_trangthairoom{
+    margin: 0 100px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+}
+.container .main_quanlroom .header_room 
+.hr_second .icon_trangthairoom:nth-child(1){
+    background-color: #3d8cbd;
+}
+.container .main_quanlroom .header_room 
+.hr_second .icon_trangthairoom:nth-child(2){
+    background-color: #00a65a;
+}
+.container .main_quanlroom .header_room 
+.hr_second .icon_trangthairoom:nth-child(3){
+    background-color: #605ca8;
+}
+.container .main_quanlroom .header_room 
+.hr_second .icon_trangthairoom p{
+    padding: 14px 0 0 22px;
+    width: 50px;
+    height: 50px;
+}
+.container .main_quanlroom .header_room 
+.hr_second .icon_trangthairoom span{
+    position: absolute;
+    width: 100px;
+    top: 15px;
+    right:-106px;
+}
+/* body */
+.container .main_quanlroom .body_room {
+    margin-top: 20px;
+    width: 100%;
+    min-height: 350px;
+    height: auto;
+    background-color: #fff;
+}
+.container .main_quanlroom .body_room .br_firt{
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow-x: scroll;
+    
+}
+.container .main_quanlroom .body_room .br_firt 
+.room_mylist a.active{
+    border-top: 2px solid #3d8cbd;
+    border-bottom: 2px solid #3d8cbd;
+}
+.container .main_quanlroom .body_room .br_firt .room_mylist{
+    width: 150px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.container .main_quanlroom .body_room .br_firt .room_mylist a{
+    width: 100%;
+    cursor: pointer;
+    padding-left: 24px;
+    height: 100%;
+    padding-top: 10px;
+    
+}
+.container .main_quanlroom .body_room .br_firt .room_mylist i{
+    width: 25px;
+    height: 25px;
+    left: 4px;
+    top: 13px;
+    color: #000000;
+    position: absolute;
+}
+.container .main_quanlroom .body_room .br_firt .room_mylist span{
+    position: absolute;
+    width: 25px;
+    right: 15%;
+    color: #fff;
+    text-align: center;
+    height: 20px;
+    border-radius:40% ;
+    background-color: #ff0000;
+}
+.container .main_quanlroom .body_room .br_second{
+    width: 100%;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
+}
+.br_second .room{
+    width: 150px;
+    height: 200px;
+    background-color: #000000;
+    margin: 20px;
+    
+}
+.br_second .room .img_iconroom{
+    text-align: center;
+    color: #fff;
+} 
+.br_second .room .content_nameroom{
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+} 
+.br_second .room .trangthai{
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+} 
+.br_second .room .ngaydat{
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+} 
+.br_second .room .ngaytra{
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+} 
+/* room */
+.br_second .room .trangthai i,
+.br_second .room .ngaydat i{
+margin-left: 0px;
+} 
+.br_second .room input{
+    margin-top: 25px;
+    width: 40px;
+}
+.br_second .room .img_iconroom{
+    margin-top: 4px;
+  
+}
+.br_second {
+    position: relative;
+}
+.tinhtrang{
+    position: absolute;
+    top: -135px;
+    left: 5px;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+}
+.tinhtrang .potion_tt{
+    padding: 0 0 0 245px;
+}

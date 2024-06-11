@@ -1,0 +1,76 @@
+.container .main_manager-hotel .list_hotel-header,
+.container .main_manager-hotel .list_hotel-body{
+    background-color: #fff;
+    margin: 10px;
+    border: 2px #ccc outset;
+    border-radius: 10px  ;
+    padding: 10px;
+}
+.container .main_manager-hotel .list_hotel-header .title{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+.container .main_manager-hotel .list_hotel-header .header-body .choose{
+    padding: 35px ;
+    
+}
+.container .main_manager-hotel .list_hotel-header .header-body .choose label,
+.container .main_manager-hotel .list_hotel-header .header-body .choose select{
+    font-size: 20px;
+    
+}
+.container .main_manager-hotel .list_hotel-header .header-body .infor .infor_avartar{
+    background-color: #ccc;
+    min-height: 100px;
+    width: 10px;
+    border-radius: 15px 0 15px 0;
+}
+.container .main_manager-hotel .list_hotel-header .header-body .infor .infor_avartar img{
+    max-width: 125px;
+    min-height: 100px;
+    border-radius: 15px 0 15px 0;
+
+}
+.container .main_manager-hotel .list_hotel-header .header-body .infor .number{
+    padding: 10px;
+}
+.container .main_manager-hotel .list_hotel-header .header-body .btnAdd {
+    padding: 10px 0 0 0;
+}
+#btnAdd{
+    margin-top: 15px;
+    font-size: 30px;
+    background-color: #3c8dbc;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10%;
+    padding: auto;
+}
+
+/* =========================body */
+.container .main_manager-hotel .list_hotel-body {
+    padding: 20px;
+}
+.container .main_manager-hotel .list_hotel-body .hotel-element{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.container .main_manager-hotel .list_hotel-body .hotel-element .warper{
+    background-color: #ccc;
+    border-radius: 0 10px 0 10px;
+
+}
+.container .main_manager-hotel .list_hotel-body .hotel-element .warper .avatar{
+    min-height: 90px;
+    background-color: #d6cdcd;
+    border-radius: 0 10px 10px 10px;
+}
+.container .main_manager-hotel .list_hotel-body .hotel-element .warper .avatar img{
+    max-width: 130px;
+    border-radius: 0 10px 10px 10px;
+    min-height: 92px;
+}
+.container .main_manager-hotel .list_hotel-body .hotel-element .warper .infor{
+    padding-left: 20px;
+}

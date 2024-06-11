@@ -1,0 +1,64 @@
+.Ngoai{
+    position: relative;
+}
+.Ngoai .form_inserphong{
+    position: absolute;
+    width:570px;
+    height: 500px;
+    border-radius: 10px;
+    top: -11px;
+    left: 177px;
+    background-color: #fff;
+    z-index: 20;
+}
+.Ngoai .che{
+    position: absolute;
+    width: 1265px;
+    height: 549px;
+    top: -49px;
+    left: -212px;
+    backdrop-filter: blur(5px);
+    z-index: 20;
+}
+.Ngoai .form_inserphong .form_isphong_header{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    
+}
+
+
+.Ngoai .form_inserphong .form_isphong_header h2{
+    width: 540px;
+    padding-left: 10px;
+}
+.Ngoai .form_inserphong .form_isphong_header p #back{
+    font-size: 27px;
+    cursor: pointer;
+}
+.Ngoai .form_inserphong .form_isphong_body .firt_isphong{
+    display: flex;
+}
+.Ngoai .form_inserphong .form_isphong_body {
+    padding:15px 0 0 130px;
+}
+.Ngoai .form_inserphong .form_isphong_body .choose {
+    padding-bottom: 15px;
+}
+.Ngoai .form_inserphong .form_isphong_body .thongtinphong .ttpten {
+    padding-bottom: 15px;
+}
+.Ngoai .form_inserphong .form_isphong_body .thongtinphong .ttptinhtrang {
+    display: flex;
+}
+.Ngoai .form_inserphong .form_isphong_body .thongtinphong .ttptinhtrang input[type="radio"]{
+    padding-left: 20px;
+}
+.Ngoai .form_inserphong .form_isphong_body button[type="submit"]{
+    margin-top: 10px;
+}
+.Ngoai .form_inserphong .body_kh_phong .ifo_kh{
+    margin-left: 200px;
+    padding-top: 10px;
+}

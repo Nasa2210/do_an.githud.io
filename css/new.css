@@ -1,0 +1,115 @@
+.fontText{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.body{
+    background-color: #ffffff;
+}
+.list_new .new-item .new-body{
+    display: flex ;
+
+}
+.list_new .new-item .new-body .new-body_img {
+    max-height: 105px;
+
+    border: 1px dotted #ccc ;
+}
+.list_new .new-item .new-link {
+    color: #666666;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.list_new .new-item .new-link-cd {
+    color: #666666;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.list_new .new-item .new-body {
+   margin-top: 5px;
+}
+.list_new .new-item .new-link:hover {
+   text-decoration: underline;
+   color: #d8a767;
+}
+.list_new .new-item .new-body .new-body_img img {
+    display: block;
+      max-width:230px;
+      max-height:95px;
+      width: auto;
+      height: auto;
+}
+.list_new .new-item .new-body .new-body_img{
+    max-height: auto;
+    border: 1px #ccc ;
+    overflow: hidden;
+}
+.list_new .new-item .new-body p {
+    margin: 0;
+    padding:0 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: start;
+}
+.list_new .new-item .new-about{
+    text-decoration: none;
+    color: #d8a767;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.list_new .new-item .new-about:hover{
+    text-decoration: underline;
+}
+.list_new .new-item p{
+    margin: 0 ;
+}
+.list_new .list_cd a{
+    display: block;
+    background-color: aliceblue;
+    text-decoration: none;
+    margin: 5px 0;
+}
+.list_new .list_cd a{
+    display: block;
+    text-decoration: none;
+    margin: 5px 0;
+}
+.list_new .list_cd {
+    height: auto;
+    background-color: antiquewhite;
+    border: 1px solid #228b22;
+}
+.list_new .list_cd h3{
+    height: auto;
+    margin: 0;
+    background-color: #228b22;
+    
+}
+#about_content{
+    padding-top: 100px;
+}
+#about_content .news-content h3{
+    margin: 0;
+    text-shadow:  0 0 20px #0a0a0a;
+    color: coral;
+}
+#about_content .news-content .ThongTin{
+    margin: 0;
+    color: #9bad36;
+}
+/* ========hotel===== */
+#about_hotel{
+    /* padding-top: 100px; */
+}
+#about_hotel .infor-hotel .hearder image{
+    border: #666666 1px dotted;
+}
+#about_hotel .infor-hotel .hearder img{
+    max-width: calc(100% - 10px);
+}
+#about_hotel .infor-hotel .hearder .title{
+    color: #d69c2f;
+}
+#about_hotel .infor-hotel .hearder .lever i{
+    color: #d69c2f;
+}
+#about_hotel .infor-hotel .body .content{
+    padding: 0;
+}

@@ -1,0 +1,118 @@
+.Ngoai1{
+    position: relative;
+}
+.Ngoai1 .form_inserphong1{
+    position: absolute;
+    width:870px;
+    height: 800px;
+    border-radius: 10px;
+    top: -11px;
+    left: 10px;
+    background-color: #fff;
+    z-index: 20;
+    border: 1px solid #000;
+}
+.Ngoai1 .che1{
+    position: absolute;
+    width: 1265px;
+    height: 850px;
+    top: -49px;
+    left: -212px;
+    backdrop-filter: blur(5px);
+    z-index: 20;
+}
+.Ngoai1 .form_inserphong1 .form_isphong_header1{
+    width: 100%;
+    height: 30px; 
+}
+
+.Ngoai1 .form_inserphong1 .form_isphong_header1 .header_datphong1{
+    display: flex;  
+    border-bottom: 1px solid #000;
+}
+.Ngoai1 .form_inserphong1 .form_isphong_header1 .header_datphong1 p{
+    margin-left: 686px;
+}
+.Ngoai1 .form_inserphong1 .form_isphong_header1 .header_datphong1 i{
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.Ngoai1 .form_inserphong1 .form_isphong_header1 
+.form_thongtindatphong .left_uddatphong,
+.Ngoai1 .form_inserphong1 .form_isphong_header1 
+.form_thongtindatphong .right_uddatphong{
+    padding: 20px 0 0 50px;
+}
+.Ngoai1 .form_inserphong1 .form_isphong_header1 
+.form_thongtindatphong .left_uddatphong input[type="text"]#MaDatPhong{
+    width: 200px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.Ngoai1 .form_inserphong1 .form_isphong_header1 
+.form_thongtindatphong .left_uddatphong .MaDatPhong,
+.Ngoai1 .form_inserphong1 .form_isphong_header1 
+.form_thongtindatphong .left_uddatphong .MaLoaiPhong,
+.Ngoai1 .form_inserphong1 .form_isphong_header1 
+.form_thongtindatphong .left_uddatphong .MaPhong,
+.Ngoai1 .form_inserphong1 .form_isphong_header1 
+.form_thongtindatphong .left_uddatphong .ngaydat,
+.Ngoai1 .form_inserphong1 .form_isphong_header1 
+.form_thongtindatphong .left_uddatphong .ngaynhan,
+.Ngoai1 .form_inserphong1 .form_isphong_header1 
+.form_thongtindatphong .left_uddatphong .ngaytra,
+.Ngoai1 .form_inserphong1 .form_isphong_header1 
+.form_thongtindatphong .left_uddatphong .ghichu,
+.Ngoai1 .form_inserphong1 .form_isphong_header1 
+.form_thongtindatphong .left_uddatphong .soluong,
+.Ngoai1 .form_inserphong1 .form_isphong_header1 
+.form_thongtindatphong .right_uddatphong .MaKH,
+.Ngoai1 .form_inserphong1 .form_isphong_header1 
+.form_thongtindatphong .right_uddatphong .HoTen,
+.Ngoai1 .form_inserphong1 .form_isphong_header1 
+.form_thongtindatphong .right_uddatphong .Email,
+.Ngoai1 .form_inserphong1 .form_isphong_header1 
+.form_thongtindatphong .right_uddatphong .SDT
+{
+
+    padding: 10px;
+
+}
+.Ngoai1 .form_inserphong1 .form_isphong_header1  label{
+    font-size: 22px;
+}
+.form_thongtindatphong .left_uddatphong .MaLoaiPhong select,
+.Ngoai1 .form_inserphong1 .form_isphong_header1 
+.form_thongtindatphong .left_uddatphong .MaPhong select,
+.Ngoai1 .form_inserphong1 .form_isphong_header1 
+.form_thongtindatphong .left_uddatphong .soluong input[type="number"],
+.Ngoai1 .form_inserphong1 .form_isphong_header1 
+.form_thongtindatphong .right_uddatphong .MaKH input[type="text"],
+.Ngoai1 .form_inserphong1 .form_isphong_header1 
+.form_thongtindatphong .right_uddatphong .HoTen input[type="text"],
+.Ngoai1 .form_inserphong1 .form_isphong_header1 
+.form_thongtindatphong .right_uddatphong .Email input[type="text"],
+.Ngoai1 .form_inserphong1 .form_isphong_header1 
+.form_thongtindatphong .right_uddatphong .SDT input[type="text"]{
+    width: 200px;
+    padding: 10px;
+    font-size: 18px;
+
+}
+.Ngoai1 .form_inserphong1 .form_isphong_header1 
+.form_thongtindatphong .left_uddatphong .ghichu textarea[name="GhiChu"]{
+    min-width: 275px;
+    min-height: 108px;
+}
+.Ngoai1 .form_inserphong1 .form_isphong_header1 
+.form_thongtindatphong  input[type="submit"]{
+    width: 100px;
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 650px;
+
+}
+
+

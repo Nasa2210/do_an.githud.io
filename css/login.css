@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+.wapper{
+    width: 380px;
+    height: 420px;
+    border-radius: 8px;
+    display: flex;
+    box-shadow: 0 0 50px #0ef;
+    transition:.2s;
+    position: relative;
+    transition: height 0.2s ease;
+    overflow: hidden;
+}
+.wapper.active{
+    height: 520px;
+}
+.wapper.active  .box{
+    transform: translateX(-370px);
+    
+}
+/* .wapper.active .sign_up{
+   transform: translateX(-370px);
+} */
+.wapper from.sign_in {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.wapper from.sign_up {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.box {
+    
+    inset: 4px;
+    padding: 50px 40px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+.box  h2{
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+.box  .input_box{
+    width: 300px;
+    margin-top: 35px;
+    position: relative;
+}
+.box  .input_box input{
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: #23242a;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+}
+.box  .input_box span{
+    position: absolute;
+    left: 0;
+    padding: 20px 0px 10px;
+    pointer-events: none;
+    color: #8f8f8f;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+}
+.box  .input_box span .fa{
+    width: 25px;
+    height: 25px;
+    color: #fff;
+}
+.box  .input_box i{
+    padding: 0 10px 0 0;
+}
+.box  .input_box input:focus~span,
+.box  .input_box input:valid~span
+
+{
+    color: #fff;
+    font-size: 0.7em;
+    transform: translateY(-37px);
+}
+.box  .input_box input:focus~span:nth-child(3){
+    display: none;
+}
+.box  .input_box div{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 4px;
+    transition: 0.5s;
+    pointer-events: none;
+    overflow: hidden;
+}
+.box  .input_box input:focus~div,
+.box  .input_box input:valid~div{
+    height: 44px;
+    
+}
+.box  .links{
+    display: flex;
+    justify-content: space-between;
+}
+.box  .links a{
+    margin: 10px 0;
+    font-size: 0.75em;
+    text-decoration: none;
+    color: #8f8f8f;
+}
+.box  .links a:hover,
+.box  .links a:nth-child(2){
+    color: #fff;
+}
+.box   input[type="submit"]{
+    border: none;
+    outline: none;
+    padding: 9px 25px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 0.9em;
+    border-radius: 4px;
+    font-weight: 600;
+    width: 100px;
+    margin-top: 10px;
+}
+/* ====== Xử Lý form =======*/
+.form-message {
+font-size: 10px;
+line-height: 1.6rem;
+padding: 4px 0 0;
+position: absolute;
+transform: translateX(100px);
+}
+.form_group:hover {
+border-color: #1dbfaf;
+}
+
+.form_group.invalid .form-control {
+border-color: #f33a58;
+}
+
+.form_group.invalid .form-message {
+color: #f33a58;
+}
+
+
+/* .wapper .sign_up{
+    transform: translateX(70px);
+} */

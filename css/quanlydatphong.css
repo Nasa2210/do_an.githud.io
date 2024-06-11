@@ -1,0 +1,21 @@
+.thongtindsks_datphong table {
+    border-collapse: collapse;
+    margin: 20px;
+}
+.thongtindsks_datphong th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+.thongtindsks_datphong th {
+    background-color: #4CAF50;
+    color: white;
+}
+.thongtindsks_datphong tr{
+    background-color: #e1e1e1;
+}
+.dsDatPhong .header_datphong {
+    padding: 10px;
+}
+.dsDatPhong{
+    padding: 10px;
+}

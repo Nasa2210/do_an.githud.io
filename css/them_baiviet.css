@@ -1,0 +1,47 @@
+.main_insert-content{
+    padding: 10px 30px;
+}
+.main_insert-content .form_group{
+    margin: 10px 0;
+}
+.main_insert-content .form_group select{
+    padding: 7px;
+    font-size: 16px;
+}
+.main_insert-content .form_group textarea{
+    font-size: 16px;
+    height: 70px;
+}
+.main_insert-content .form_group input{
+    height: 30px;
+}
+.main_insert-content .form_group input[type="file"]{
+    margin-top: 50px;
+}
+.main_insert-content .form_group img{
+    width: 200px;
+    height: 200px;
+}
+.main_insert-content  input[type="submit"]{
+    width: 100PX;
+    height: 40px;
+    background-color: #085255;
+    color: white;
+    border-radius: 10px;
+}
+.form-message {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  padding: 4px 0 0;
+}
+.form_group:hover .form-control {
+  border-color: #1dbfaf;
+}
+
+.form_group.invalid .form-control {
+  border-color: #f33a58;
+}
+
+.form_group.invalid .form-message {
+  color: #f33a58;
+}

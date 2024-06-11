@@ -1,0 +1,97 @@
+.main_list-topic h1{
+    background-color: #278d85;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px ;
+    color: white;
+    margin: 10px 20px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main_list-topic .list_topic .topic-right{
+    max-height: 500px;
+    overflow: auto;
+}
+.main_list-topic .list_topic .topic-right .table-topic {
+    width: 450px;
+    border: 1px solid #000;
+    border-collapse: collapse;  
+    font-size: 18px;
+}
+.main_list-topic .list_topic .topic-right .table-topic th {
+    background-color: #9e822f;
+    border: solid 1px #000;
+    color: white;
+}
+.main_list-topic .list_topic .topic-right .table-topic td {
+    border: solid 1px #535252;
+    background-color: #62ebdd;
+    color:#34361e;
+    text-align: center;
+}
+.main_list-topic .list_topic .topic-left form {
+   margin: auto;
+}
+.main_list-topic .list_topic .topic-left form {
+    background-color: #c8dfbb;
+    margin-top: auto;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+.form_group {
+    margin: 10px;
+}
+.form_group input{
+    border-radius: 10px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+#topic-form button{
+    border-radius: 10px;
+    height: 30px;
+    margin-left: 10px;
+    margin: 10px 0 0 50px ;
+    width:100px;
+}
+.insert-form{
+    background-color:#61bb46 !important;
+}
+.btn-insert{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    background-color: #61bb46;
+    border-radius:10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.form-message {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    padding: 4px 0 0;
+  }
+  .form_group:hover .form-control {
+    border-color: #1dbfaf;
+  }
+
+  .form_group.invalid .form-control {
+    border-color: #f33a58;
+  }
+  
+  .form_group.invalid .form-message {
+    color: #f33a58;
+  }
